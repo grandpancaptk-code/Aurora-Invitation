@@ -144,8 +144,8 @@ export function HeroSection({
             </h1>
           </div>
 
-          <div className="animate-fadeUp pt-3 sm:pt-4 md:pt-6">
-            <p className="max-w-[28ch] text-center text-[10px] font-light uppercase leading-[1.6] tracking-[0.18em] opacity-80 sm:max-w-none sm:text-[11px] sm:leading-[1.8] sm:tracking-[0.28em] md:text-[12.5px]">
+          <div className="animate-fadeUp flex justify-center pt-3 sm:pt-4 md:pt-6">
+            <p className="mx-auto max-w- text-center text- font-light uppercase leading-[1.6] tracking-[0.18em] opacity-80 sm:max-w-none sm:text- sm:leading-[1.8] sm:tracking-[0.28em] md:text-[12.5px]">
               <span className="sm:hidden">Private Launching <br /> Limited Cluster</span>
               <span className="hidden sm:inline">Private Launching • Limited Cluster • {brand}</span>
             </p>
