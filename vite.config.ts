@@ -18,9 +18,9 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   tanstackStart: {
-    server: { entry: "server", preset: "github_pages" },
+    server: { entry: "server" }, // preset cloudflare default
   },
   vite: {
-    base: "/", // WAJIB / kalau pakai custom domain
+    base: "/", // pakai / untuk custom domain
   }
 });
