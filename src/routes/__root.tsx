@@ -122,6 +122,16 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="id">
       <head>
         <HeadContent />
+        {/* Meta tag statis wajib untuk Bot WhatsApp & Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://invitation.grandpancaresidence.com/" />
+        <meta property="og:title" content="AURORA — Undangan Private Launching Grand Panca Residence" />
+        <meta property="og:description" content="Undangan private launching cluster AURORA di Grand Panca Residence." />
+        <meta property="og:image" content="https://invitation.grandpancaresidence.com/og-banner.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://invitation.grandpancaresidence.com/og-banner.jpg" />
       </head>
       <body>
         {children}
