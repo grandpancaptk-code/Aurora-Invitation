@@ -13,29 +13,7 @@ import { useToasts } from "@/hooks/useToasts";
 import { supabase } from "@/lib/supabase";
 import type { Guest, RsvpStatus, Wish } from "@/types/invitation";
 
-const TITLE = "AURORA — Undangan Private Launching Grand Panca Residence";
-const DESCRIPTION =
-  "Undangan private launching cluster AURORA di Grand Panca Residence. Konfirmasi kehadiran dan kirim ucapan Anda.";
-// Ganti URL di bawah ini dengan link gambar banner Anda yang berukuran 1200x630px
-const OG_IMAGE_URL = "https://invitation.grandpancaresidence.com/og-banner.jpg";
-
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: TITLE },
-      { name: "description", content: DESCRIPTION },
-      { property: "og:title", content: TITLE },
-      { property: "og:description", content: DESCRIPTION },
-      { property: "og:type", content: "website" },
-      { property: "og:image", content: OG_IMAGE_URL },
-      { property: "og:image:width", content: "1200" },
-      { property: "og:image:height", content: "630" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: TITLE },
-      { name: "twitter:description", content: DESCRIPTION },
-      { name: "twitter:image", content: OG_IMAGE_URL },
-    ],
-  }),
   component: InvitationPage,
 });
 
