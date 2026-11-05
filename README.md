@@ -37,8 +37,4 @@ src/
   styles.css                design token + animasi (tidak ada CSS di dalam komponen)
 ```
 
-## Catatan
 
-- Tidak ada JavaScript yang ditulis langsung di dalam file HTML; seluruh logika berada di modul TypeScript.
-- Data tamu, ucapan, link VIP, dan akun admin disimpan di `localStorage` browser.
-- Kredensial awal dashboard: `admin@grandpanca.id` / alias `grandpanca`, password `GrandPanca2026!`.
